@@ -1,0 +1,32 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+*.ipr
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# JARs / WARs / EARs (optional if you build them locally)
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.swp
+*~
