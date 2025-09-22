@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
@@ -61,6 +62,9 @@ public class ArrayList_Ds {
         groceryList.remove(1);
         System.out.println("List after remove:"+groceryList);
 
+        // ArrayList doesnt work with primitive types like int
+        //ArrayList<int> intArrayList = new ArrayList<int>(10); // Type argument cannot be of a primitive type
+        ArrayList<Integer> integerArrayList = new ArrayList<>(10); // works because we are using a wrapper class
 
     }
 }
